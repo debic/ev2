@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+	background: rgb(195, 255, 247);
+}
+
+h2{
+
+	font-family: 'Anton', sans-serif;
+	font-weight: 300;
+
+}
+
 #menu{
 	position: fixed;
 	bottom:2rem;
 	right:2.5rem;
+}
+
+.bg-azul{
+ background: rgba(113,209,251,1);
 }
