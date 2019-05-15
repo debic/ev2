@@ -1,14 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:900');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100');
 
 body{
-	background: rgb(195, 255, 247);
+	 background-image: linear-gradient(to right, rgb(195, 255, 247) , #4ec1aa);
+	
+	font-family: 'Muli', sans-serif;
+}
+
+h1{
+
+
+	font-family: 'Nunito Sans', sans-serif;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+	font-weight: 300;
+
 }
 
 h2{
 
-	font-family: 'Anton', sans-serif;
+	font-family: 'Muli', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 300;
 
+}
+
+p{
+  
 }
 
 #menu{
@@ -18,5 +36,5 @@ h2{
 }
 
 .bg-azul{
- background: rgba(113,209,251,1);
+ background: rgba(8,138,112,1);
 }
